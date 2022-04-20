@@ -1,0 +1,8 @@
+# run this in terminal:  docker compose run khipster bash
+
+services:
+  khipster:
+    image: marcolinoas/khipster:latest  
+    volumes:
+      - ./output:/home/jhipster/app
+       
